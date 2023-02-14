@@ -9,11 +9,9 @@ updates:
     directory: "/authn-service" # Location of package manifests
     schedule:
       interval: "daily"
-     labels:
+    labels:
      - "triage-required"
-     assignees:
+    assignees:
      - "basvandesande"
-     reviewers:
-     - "basvandesande"
-     commit-message:
+    commit-message:
        prefix: "pip"
