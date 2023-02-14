@@ -15,3 +15,15 @@ updates:
      - "basvandesande"
     commit-message:
        prefix: "pip"
+
+
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    labels:
+     - "triage-required"
+    assignees:
+     - "basvandesande"
+    commit-message:
+       prefix: "C#"
